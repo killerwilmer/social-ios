@@ -6,5 +6,9 @@ target 'devslopes-social' do
   use_frameworks!
 
   # Pods for devslopes-social
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Database'
+  pod 'Firebase/Storage'
 
 end

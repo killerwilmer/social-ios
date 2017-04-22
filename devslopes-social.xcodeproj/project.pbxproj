@@ -12,6 +12,7 @@
 		170B1ADC1EAB011100E617F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 170B1ADA1EAB011100E617F0 /* Main.storyboard */; };
 		170B1ADE1EAB011100E617F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 170B1ADD1EAB011100E617F0 /* Assets.xcassets */; };
 		170B1AE11EAB011100E617F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 170B1ADF1EAB011100E617F0 /* LaunchScreen.storyboard */; };
+		170B1AE91EAB028D00E617F0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 170B1AE81EAB028D00E617F0 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		170B1ADD1EAB011100E617F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		170B1AE01EAB011100E617F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		170B1AE21EAB011100E617F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		170B1AE81EAB028D00E617F0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				170B1ADD1EAB011100E617F0 /* Assets.xcassets */,
 				170B1ADF1EAB011100E617F0 /* LaunchScreen.storyboard */,
 				170B1AE21EAB011100E617F0 /* Info.plist */,
+				170B1AE81EAB028D00E617F0 /* GoogleService-Info.plist */,
 			);
 			path = "devslopes-social";
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				170B1AE11EAB011100E617F0 /* LaunchScreen.storyboard in Resources */,
+				170B1AE91EAB028D00E617F0 /* GoogleService-Info.plist in Resources */,
 				170B1ADE1EAB011100E617F0 /* Assets.xcassets in Resources */,
 				170B1ADC1EAB011100E617F0 /* Main.storyboard in Resources */,
 			);

@@ -49,9 +49,13 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let post = posts[indexPath.row]
-        print("KILLER: \(post.caption)")
         
-        return tableView.dequeueReusableCell(withIdentifier: "PostCell") as! PostTableViewCell
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "PostCell") as? PostTableViewCell {
+            cell.configureCell(post: post)
+            return cell
+        } else {
+            return PostTableViewCell()
+        }
     }
     
     @IBAction func signOutTapped(_ sender: Any) {
